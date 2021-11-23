@@ -1,0 +1,19 @@
+{
+    "name": "ruslan/weather",
+    "authors": [
+        {
+            "name": "Ruslan",
+            "email": "ruslantm.ru@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": ""
+        }
+    }
+}
